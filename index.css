@@ -1,0 +1,122 @@
+html{
+    scroll-behavior: smooth;
+}
+.header{
+    background-color: blueviolet;
+}
+.header-logo img{
+    width: 70px;
+}
+.primary-menu{}
+.primary-menu ul{
+    margin-bottom: 0;
+    text-align: right;
+}
+.primary-menu ul li{
+    display: inline-block;
+}
+.primary-menu ul li a{
+    display: block;
+    color: #fff;
+    padding: 0px 30px;
+    font-size: 20px;
+    line-height: 70px;
+    border-right: 1px solid #ddd;
+    text-decoration: none;
+    margin-left: -4px;
+    transition: .5s;
+}
+.primary-menu ul li a:hover{
+    background-color: rgb(141, 73, 73);
+    color: blue;
+}
+.banner{
+    background: url(https://wallpaperaccess.com/full/299543.jpg) center;
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+}
+.banner h1{
+    color: rgb(40, 26, 75);
+    background-color: rgba(220, 20, 60,.4);
+    display: inline-block;
+    transition: .5s;
+    border-radius: 8px;
+    padding: 11px;
+}
+.banner h1:hover{
+    background-color: rgba(255, 255, 0,.4);
+    color: rgb(46, 22, 185);
+}
+.banner h4{
+    color: rgb(138, 43, 226);
+    background-color: rgba(210, 105, 30,.4);
+    padding: 8px;
+    border-radius: 8px;
+    max-width: 407px;
+    margin: auto;
+    transition: .5s;
+    font-size: 40px;
+}
+.banner h4:hover{
+    background-color: rgba(238, 130, 238,.4);
+    color: rgb(241, 90, 64);
+}
+
+.About{
+    background-color: rgb(156, 156, 124);
+}
+.Product img{
+    max-width: 100%;
+}
+.Product h4{
+    border: 1px solid #ddd;
+    font-size: 21px;
+    margin-bottom: 30px;
+    background-color: #004a8b;
+    color: #ddd;
+    border-radius: 8px;
+    transition: .5s;
+}
+.Product h4:hover{
+    background-color: aqua;
+    color: yellow;
+}
+.Service i{
+    font-size: 50px;
+    background-color: blue;
+    padding: 8px;
+    margin-top: 11px;
+    color: #ffbf00;
+    border-radius: 10px 30px 10px 30px;
+    font-size: 50px;
+}
+.footer{
+    background-color: rgba(70, 54, 54, 0.733);
+    padding: 15px;
+}
+.footer p{
+    font-size: 25px;
+} 
+.footer a{
+    font-size: 34px;
+    margin-right: 91px;
+    color: #ddd;
+    background-color: blue;
+    padding: 2px 12px;
+    border-radius: 7px;
+    transition: .5s;
+} 
+.footer a:hover{
+    background-color: rgb(18, 31, 26);
+    color: yellow;
+} 
+.contact{
+    margin-left: 118px;
+    margin-right: 119px;
+}
+
+
+
+
